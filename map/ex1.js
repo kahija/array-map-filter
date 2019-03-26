@@ -17,12 +17,24 @@ En sortie: [
   'Bacon contains 5 characters',
   'Tofu contains 4 characters',
   'Mayonnaise contains 10 characters'
-]
+
 
  */
 
 function getStringsLength(strings) {
-}
+
+  const array = (strings);
+  return array.map(function(chaine) {
+  n= chaine.length
+  return chaine + ' contains ' + n  + ' characters';
+     
+  });
+ }
+    
+  
+
+
+
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
 // mais alors, il faut alors lancer l'exercice avec node map/ex1
@@ -30,3 +42,4 @@ function getStringsLength(strings) {
 
 // Ne pas modifier l'export
 module.exports = getStringsLength;
+    

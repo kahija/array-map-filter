@@ -43,9 +43,34 @@ En sortie: [
  */
 
 function getFoodCategories(foods) {
-}
+
+ 
+
+  const poulet = (foods); 
+  
+  return poulet.map(function(graille){
+
+  if (graille.isVegetarian===true){
+    
+    return graille.food + ' is suitable for vegetarians' ;
+  }
+  
+
+  if (graille.isVegetarian===false){
+      
+    return graille.food + ' is not suitable for vegetarians' ;
+    }
+    });
+    
+  }
+ 
+
+
+
+
 
 
 
 // Ne pas modifier l'export
 module.exports = getFoodCategories;
+  
