@@ -8,11 +8,20 @@ Exemple de tableau d'entrée:
   [7, -4, 2, 0, -10, 3, 11]
 Sortie attendue:
   [7, 2, 0, 3, 11]
-
+  const negNumbers = (numbers)
+    return negNumbers.filter((num)=> {
+    
+    if (0  num){
+      return num    
+  });
  */
 
 function getPositiveNumbers(numbers) {
-}
+
+  return numbers.filter(num => num>=0)
+
+    }    
+
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
 // mais alors, il faut alors lancer l'exercice avec node filter/ex1
